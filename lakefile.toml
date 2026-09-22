@@ -1,0 +1,12 @@
+name = "monochromatic_rectangles"
+version = "0.1.0"
+defaultTargets = ["RectangleColoring"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "5450b53e5ddc75d46418fabb605edbf36bd0beb6"
+
+[[lean_lib]]
+name = "RectangleColoring"
+srcDir = "lean"
